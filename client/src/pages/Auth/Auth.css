@@ -1,0 +1,233 @@
+.auth-section{
+    
+    background-color: #f1f2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+
+}
+.auth-container-1{
+    padding: 100px;
+    margin-right: 30px;
+    min-height: 105vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color: rgb(63, 59, 59);
+    
+
+}
+.login-logo{
+    padding: 20px 30px;
+    height: 50px;
+    width: 50px;
+    
+
+}
+.auth-container-2{
+    min-width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.auth-container-2 form{
+  width: 90%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 0 10px 25px rgb(0 0 0 / 5%),
+   0 20px 48px rgb(0 0 0 / 5%),
+   0 1px 4px rgb(0 0 0 / 10%);
+  
+    
+}
+.auth-container-2 form label input{
+    padding: 10px 13px;
+    width: calc(100% - 30px);
+    border: solid 1px #0000003e;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.auth-container-2 form label:nth-child(1) h4,
+.auth-container-2 form label:nth-child(2) h4,
+.auth-container-2 form label:nth-child(3) h4{
+margin-bottom:5px;
+margin-top: 10px;
+font-weight: 550;
+font-size: large;
+}
+.auth-container-2 form label:nth-child(4){
+    display: flex;
+    height: auto;
+    
+}
+.auth-container-2 form label:nth-child(4) h4{
+  
+  font-weight: 550;font-size: large;
+
+}
+
+.auth-container-2 form label:nth-child(4) input{
+   width: min-content;
+   margin-top: -25px;
+}
+
+
+
+
+.auth-btn{
+    margin-top: 10px;
+    padding: 10px 2px;
+    background-color: #009dff;
+    border: solid 1px #009dff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.auth-btn:hover{
+    background-color: #018ce3;
+}
+.handle-switch-btn{
+    background-color: transparent;
+    color: #007ac6;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+.button-4 {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+  width: 340px;
+  margin-top: -300nopx;
+}
+
+.button-4:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+  
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
+}
+.sahib{
+  color:rgb(63, 63, 63);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  font-size: small;
+  font-weight: bolder;
+  
+}
+.auth-btn-4{
+  font-size: 15px;
+  border-radius: 7px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 50px ; 
+  color: white;
+  background-color: #009dff;
+  border: solid 1px #009dff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  cursor: pointer;
+  font-weight: bold;
+  
+
+  
+  
+}
+.plzz{
+  display: flex;
+}
+
+.plz{
+  height: 1%;
+  margin: 13px 0px;
+  margin-top: 20px;
+}
+
+.auth-btn-4:hover{
+  background-color: #009dff;
+}
+.auth-btn-41{
+  padding: 2px ;
+  background-color: #009dff;
+  border: solid 1px #009dff;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+.auth-btn2{
+  margin-top: 10px;
+  padding: 10px 2px;
+  background-color: red;
+  border:  red;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px; 
+  width: 100px;
+}
+.auth-btn2:hover{
+background-color:rgb(196, 21, 21);
+}
